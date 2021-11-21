@@ -43,7 +43,6 @@ resources:
 - ../apps/profiles/upstream/overlays/kubeflow
 # Volumes Web App
 - ../apps/volumes-web-app/upstream/overlays/istio
-<<<<<<< HEAD
 # Tensorboards Web App
 #-  ../apps/tensorboard/tensorboard-controller/upstream/overlays/kubeflow
 # Tensorboard Controller
@@ -59,15 +58,5 @@ resources:
 # XGBoost Operator
 #- ../apps/xgboost-job/upstream/overlays/kubeflow
 
-=======
-# Tensorboards Controller
--  ../apps/tensorboard/tensorboard-controller/upstream/overlays/kubeflow
-# Tensorboard Web App
--  ../apps/tensorboard/tensorboards-web-app/upstream/overlays/istio
-# Training Operator
-- ../apps/training-operator/upstream/overlays/kubeflow
-# MPI Operator
-- ../apps/mpi-job/upstream/overlays/kubeflow
->>>>>>> master
 # User namespace
 - ../common/user-namespace/base
